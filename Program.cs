@@ -8,6 +8,7 @@ builder.Services.AddOpenApiDocument(configure =>
 });
 
 var app = builder.Build();
+app.MapControllers();
 
 if (app.Environment.IsDevelopment()) {
 	app.UseDeveloperExceptionPage();

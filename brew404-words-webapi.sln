@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35913.81 d17.13
+VisualStudioVersion = 17.13.35913.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "brew404-words-webapi", "brew404-words-webapi.csproj", "{318D7976-2911-4C34-8D6F-22343A4571E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webApi", "webApi.csproj", "{318D7976-2911-4C34-8D6F-22343A4571E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "..\Domain\Domain.csproj", "{27277073-7DE7-421A-84D4-6F810877BE08}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{318D7976-2911-4C34-8D6F-22343A4571E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{318D7976-2911-4C34-8D6F-22343A4571E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{318D7976-2911-4C34-8D6F-22343A4571E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27277073-7DE7-421A-84D4-6F810877BE08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27277073-7DE7-421A-84D4-6F810877BE08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27277073-7DE7-421A-84D4-6F810877BE08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27277073-7DE7-421A-84D4-6F810877BE08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
